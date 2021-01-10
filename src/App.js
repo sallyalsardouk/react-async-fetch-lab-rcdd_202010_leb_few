@@ -3,6 +3,6 @@ import React from 'react';
 
 export default class App extends React.Component{
   componentDidMount(){
-    fetch()
+    fetch( http://api.open-notify.org/astros.json,)
   }
 }
