@@ -12,7 +12,10 @@ export default class App extends React.Component{
   }
   render(){
     return(
-      
+       <div>
+                {this.state.peopleInSpace.map((person,craft) => 
+                    <h1>{person.name} {person.craft} </h1>)}
+            </div>
       )
       
     
